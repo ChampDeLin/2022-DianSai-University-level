@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: da ad, ´ò, LIC=S5ISZ-JHUYU-68SFC-7CDWP-39TM7-1CGRS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+C:\Users\Dream\Desktop\diansai\Basement\MDK-ARM\Basement.uvprojx
+Project File Date:  05/15/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Basement'
+assembling startup_stm32f103xb.s...
+compiling dma.c...
+compiling gpio.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_msp.c...
+compiling tim.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling usart.c...
+compiling main.c...
+../Users/decoding.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(216): warning:  #111-D: statement is unreachable
+    return 0;
+../Core/Src/main.c(148): warning:  #177-D: variable "finish"  was declared but never referenced
+     bool finish;
+../Core/Src/main.c(297): warning:  #111-D: statement is unreachable
+    task_state = INIT; 
+../Core/Src/main.c(224): warning:  #177-D: variable "i"  was declared but never referenced
+    uint8_t i,j;
+../Core/Src/main.c(224): warning:  #177-D: variable "j"  was declared but never referenced
+    uint8_t i,j;
+../Core/Src/main.c(345): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+      OLED_ShowString(10, 26, tmpbuffer, 16);
+../Core/Src/main.c(384): warning:  #177-D: variable "j"  was declared but never referenced
+    uint8_t i,j;
+../Core/Src/main.c(632): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+            OLED_ShowString(10, 42, tmpbuffer, 16);
+../Core/Src/main.c(655): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+            OLED_ShowString(10, 42, tmpbuffer, 16);
+../Core/Src/main.c(674): warning:  #111-D: statement is unreachable
+        Stop_pwm();
+../Core/Src/main.c(582): warning:  #177-D: variable "i"  was declared but never referenced
+    int i;
+../Core/Src/main.c(583): warning:  #177-D: variable "x_angle"  was declared but never referenced
+    float x_angle[8];
+../Core/Src/main.c(815): warning:  #111-D: statement is unreachable
+          task_state = MODE_FIVE;
+../Core/Src/main.c: 14 warnings, 0 errors
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_uart.c...
+compiling decoding.c...
+..\Users\decoding.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Users\decoding.c(243): warning:  #1-D: last line of file ends without a newline
+  #undef printf
+..\Users\decoding.c: 2 warnings, 0 errors
+compiling pid.c...
+compiling Motor.control.c...
+compiling keyboard.c...
+compiling task.c...
+compiling test.c...
+..\Users\test.c(60): warning:  #69-D: integer conversion resulted in truncation
+              finish = balance_judge(3000);
+..\Users\test.c(104): warning:  #1-D: last line of file ends without a newline
+  }
+..\Users\test.c(77): warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t i,j;
+..\Users\test.c: 3 warnings, 0 errors
+compiling oled.c...
+linking...
+Program Size: Code=29084 RO-data=6924 RW-data=64 ZI-data=4160  
+FromELF: creating hex file...
+"Basement\Basement.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM::CMSIS:CORE:5.5.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Dream\Desktop\diansai\Basement\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\CS32F1xx_DFP\1.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
+      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>

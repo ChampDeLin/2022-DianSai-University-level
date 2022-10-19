@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "tim.h": "c",
+        "test.h": "c"
+    },
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on"
+
+    //编译字体大小，可以更改数字
+    "editor.fontSize": 20,
+    //侧边栏大小，可以更改数字
+        "window.zoomLevel": -1
+}
